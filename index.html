@@ -1,35 +1,45 @@
 <!DOCTYPE html>
-
-<html lang="eng-us">
-
+<!-- CSS Stylesheets with Relative Paths -->
+<html lang="en-us">
 <head>
-    <meta charset="UTF-8">
-    <title>Atmospheric Pollution In California</title>
+  <meta charset="UTF-8">
+  <title>CSS Stylesheets with Relative Paths</title>
 
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
 
-    <h1> Atmospheric Pollution In California </h1>
-    <br>
+  <header>
+    <h1>Student Bio</h1>
+  </header>
 
+  <main class="container">
+    <section id="main-bio">
+      <section id="figure">
+        <h2 id="bio-name">Tony Phelps</h2>
+        <img id="bio-image" src="cat1.jpg" alt="Tony Phelps">
+      </section>
+      <p>My name is Tony Phelps and I am currently enrolled in the Data Science & Visualization Bootcamp at UCSD extension.
+          I also work full time as an Event Technology Specialist, Sales Manager, and Operations Manager for a professional
+          event production company in San Diego. After graduating from the Computing in the Arts program at UCSD and working
+          for 6 years in the Event Production industry, I wanted to expand my skill set to being to solve bigger
+          prolems with technology, in particular: Data, Coding, and the vizualization of real data to convey insight into deeper
+          problems and questions in the world.</p>
+    </section>
 
-    <a href="2015 NOX AVG.png">
-            <img src="2015 NOX AVG.png" alt="2015 NOX AVGs">
-          </a>
+    <aside id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">tonyphelpswhat@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="#">tonyphelps</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+      </ul>
+    </aside>
+  </main>
 
-<p> &nbsp This project was fun! We analysed a whole lot of data from the EPA, 
-    which might not actually be protecting the environment for very much long 
-    under the current administration which is why we felt obligated to try to 
-    present some of the pollution data accessable from the EPA's API!
-</p>
- 
-<ul>
-    <li><strong>Email:</strong><a href="#">tonyphelpswhat@gmail.com</a></li>
-</ul>
-  
-
-   
 </body>
 
 </html>
